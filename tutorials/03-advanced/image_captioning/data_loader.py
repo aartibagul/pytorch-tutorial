@@ -6,8 +6,6 @@ import pickle
 import numpy as np
 import nltk
 from PIL import Image
-from build_vocab import Vocabulary
-from pycocotools.coco import COCO
 
 
 class CocoDataset(data.Dataset):
